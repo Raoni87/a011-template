@@ -38,9 +38,9 @@ const carrinho = {
 
 console.log(carrinho);
 
-carrinho.compras = ["macarrão", "R$ 2,55", 3];
+carrinho.compras = [{nomeDoProduto: "macarrão", precoDoProduto: "R$ 2,55", quantidade: 3}];
 
-console.log(carrinho.compras);
+console.log(carrinho);
 
 const carrinhoPresente = {...carrinho};
 
